@@ -15,9 +15,6 @@
 	*
 	**/
 
-	// Require shubers curlwrapper
-	require 'curl.php';
-	
 	/** Main Class **/
 	class PHP_RSGet {
 	
