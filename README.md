@@ -2,11 +2,16 @@
 
 PHP_RSGet is an API wrapper for the checkfiles subroutine in the rapidshare API.  It builds URL links to the actual file and returns a link directly to the file itself.  However you will need to be logged in and a premium user to download that file without the countdown timer.
 
+## Requires
+
+This requires [shubers](http://github.com/shuber) awesome [curl wrapper](http://github.com/shuber/curl).
+
 ## Usage
 
 ### Initialization
 
 Init like this:
+    include 'curl.php';
     include 'php_rsget.php';
     $rs = new PHP_RSGet;
 
