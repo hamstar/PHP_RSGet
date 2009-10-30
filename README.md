@@ -12,7 +12,7 @@ This requires [shubers](http://github.com/shuber) awesome [curl wrapper](http://
 
 Init like this:
     include 'curl.php';
-    include 'php_rsget.php';
+    include 'PHP_RSGet.php';
     $rs = new PHP_RSGet;
 
 ### Getting a link
